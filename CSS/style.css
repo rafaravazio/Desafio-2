@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 16px; 
+    font-weight: bolder;
+}
+
+p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+}
+
+.color{
+    color: #0EAFAC;
+    font-weight: bolder;
+}
+.nav-header{
+    background: #F6F6F7;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.nav-options{
+    background: #F6F6F7;
+    color: #1C1C1D;
+}
+
+.nav-options a{
+    color: #1C1C1D;
+}
+
+.nav-options li{
+    color: #1C1C1D;
+    display: block;
+    text-align: center;
+}
+
+.logo-black{
+    width: 135px;
+    height: 40px;
+}
+
+.button-default{
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 213px;
+    height: 42px;
+    background: #10DFC2 0 0 no-repeat padding-box;
+    border-radius: 15px;
+    color: #FBFBFB;
+    text-align:center;
+}
+
+.rocket{
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    height: 503px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 100px 225px;                
+}
+
+.rocket-col-1{
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.rocket-col-1 h4{
+    width: auto;    
+    line-height: 1.5;  
+    font-weight: lighter;         
+}
+
+.rocket-col-2{
+    width: 332px;
+    height: 303px;
+    text-align:center;
+    display: none;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 50px 100px;  
+}
+
+.about-col-1{
+    width: 468px;
+    height: 204px;
+    padding: 51px 0;
+}
+
+.about-col-2{
+    width: 253px;
+    height: 306px;
+}
+
+.procedure{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px 115px;
+    background-color: #F6F6F6;
+}
+
+.how-it-work{
+    text-align: center;
+}
+
+.cards{
+    width: auto;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    margin: 29px;
+}
+
+.seeking{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.requirements{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.col{
+    width: 400px;
+    padding: 49px 0;
+}
+
+.news{
+    height: 215px;
+    background: #19DBD1 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center
+}
+
+.news .col{
+    color: #FFFFFF;
+}
+
+.subscribe{
+    border: 0 transparent;
+
+}
+
+.email-type{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+}
+
+.button-sign{
+    width: 100px;
+    height: 35px;
+    margin-top: 16px;
+    color: white;
+    background: #FFB900 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+}
+
+footer{
+    height: 456px;
+    padding: 50px 50px 20px 50px;
+    color: #FFFFFF;
+    background: #04254C 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.more{
+    box-sizing: border-box;
+    width: 428px;
+    height: 262px;
+    padding-right: 20px;
+}
+
+.button-contact{
+    box-sizing: border-box;
+    width: 181px;
+    height: 35px;
+    padding: 8px 54px 8px 20px;
+    color: #FFFFFF;
+    background: #FFB900 url(../images/Caminho\ 221.svg) 0 0 no-repeat padding-box;
+    background-position: right;
+    background-position-x: 130px;
+    border-radius: 10px;
+}
+
+.info{
+    width: 131px;
+    height: 317px;  
+    padding-right: 30px;  
+}
+
+.info ul{
+    line-height: 2;
+    padding-left:0;
+    list-style-type: none;
+}
+
+address{
+    width: 412px;
+    height: 309px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.help span{
+    width: 50px; 
+    height: 50px;       
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 15px 17px;
+    
+}
+
+.div{
+    width: 322px;
+    margin-left: 40px;
+}
+
+
