@@ -36,6 +36,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: rgba(252, 252, 252, 0.747);
+}
+
 .color{
     color: #0EAFAC;
     font-weight: bolder;
@@ -60,6 +64,10 @@ a{
     color: #1C1C1D;
 }
 
+.nav-options a:hover{
+    color: rgba(151, 144, 144, 0.671);
+}
+
 .nav-options li{
     color: #1C1C1D;
     display: inline-block;
@@ -74,7 +82,7 @@ a{
 .button-default{
     box-sizing: border-box;
     padding-top: 10px;
-    width: 213px;
+    width: 210px;
     height: 42px;
     background: #10DFC2 0 0 no-repeat padding-box;
     border-radius: 15px;
@@ -187,6 +195,11 @@ a{
     padding: 50px 50px 60px;
 }
 
+.seeking ul{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
 .requirements{
     display: flex;
     justify-content: space-evenly;
@@ -262,6 +275,7 @@ footer{
 .more{
     box-sizing: border-box;
     width: 428px;
+    padding-top: 25px;
 }
 
 .button-contact{
@@ -295,13 +309,13 @@ address{
     justify-content:baseline
 }
 
-.help{
+.pin{
     display: flex;
     flex-direction: column;
     justify-content: space-around;   
 }
 
-.help span{
+.pin span{
     width: 50px; 
     height: 50px;       
     background-color: #FFFFFF;
@@ -311,7 +325,7 @@ address{
     
 }
 
-.div{
+.city{
     width: 322px;
     margin-left: 40px;
 }
@@ -357,7 +371,7 @@ address{
     }
 }
 
-@media screen and (max-width: 1086px){
+@media screen and (max-width: 1120px){
     .nav-options li{
         padding: 5px;
     }
@@ -376,25 +390,71 @@ address{
         "work    work "
         "card-1 card-2" 
         "card-3 card-4";
-        gap: 29px;
+        gap: 50px;
         background-color: #F6F6F6;
+    }
+
+    .more{
+        padding-right: 20px;
+    }
+
+    .info{
+        padding-right: 20px;
     }
 
 }
 
-
-@media screen and (max-width: 640px){
+@media screen and (max-width: 880px){
     .nav-header{
         height: auto;
-        padding: 0 25px;
+        padding: 25px 25px;
+        align-items: flex-start;
+    }
+
+    .nav-header ul{
+        padding-top: 80px;
     }
 
     .nav-options li{
         display: block;
         text-align: center;
-        padding-right: 10px;
+        padding-right: 15px;
     }
+
+    .logo-black{
+        width: 135px;
+        height: 40px;
+    }    
     
+    .button-default{
+        width: 150px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px){
+    .nav-header{
+        height: auto;
+        padding: 25px 25px;
+        align-items: flex-start;
+    }
+
+    .nav-header ul{
+        padding-top: 80px;
+    }
+
+    .nav-options li{
+        display: block;
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    .logo-black{
+        width: 135px;
+        height: 40px;
+    }    
     
     .button-default{
         width: 150px;
@@ -407,6 +467,10 @@ address{
     .about{
         flex-direction: column;
         align-items: center;
+    }
+
+    .about-col-1{
+        width: 400px;
     }
 
     .procedure{
@@ -446,9 +510,14 @@ address{
     
     .more{
         box-sizing: border-box;
-        width: 428px;
+        width: 400px;
         height: 262px;
         padding-right: 20px;
     }
+
+    address{
+        width: 400px;
+    }
+
     
 }
